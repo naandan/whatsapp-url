@@ -1,0 +1,8 @@
+version: "3"
+
+services:
+  web:
+    image: wagen:test
+    container_name: whatsapp_go
+    ports:
+      - "5053:80"
